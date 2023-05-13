@@ -38,6 +38,15 @@ body {
 	color: #ddd;
 }
 
+.header-text a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-text a:hover{
+	color: #0086f3;
+}
+
 /* navigation */
 
 nav {
@@ -65,7 +74,7 @@ ul li a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #ddd;
-	transition: color 0.3s;
+	/* transition: color 0.3s; */
 }
 
 ul li a:hover {
