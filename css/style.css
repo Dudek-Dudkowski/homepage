@@ -29,6 +29,7 @@
 
 .main{
 	display: flex;
+	flex-flow: row wrap;
 }
 
 .main > * {
@@ -70,7 +71,7 @@
 		flex: 1;
 	}
 	.card3 {
-		flex: 2;
+		
 	}
 }
 
