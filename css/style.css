@@ -31,13 +31,18 @@ body {
 	align-items: center;
 }
 
+.header h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 .nav-bar {
 	background-color: #070a0e;
 	color: #fff;
 }
 
-.nav-bar-item{
-	width: 150px;
+.nav-bar-item {
+	/* width: 150px; */
 	margin: 0 10px;
 	padding: 15px 5px 16px 5px;
 }
@@ -62,7 +67,7 @@ body {
 	text-transform: uppercase;
 	color: #ddd;
 	font-weight: bold;
-	letter-spacing: 2px
+	letter-spacing: 2px;
 }
 
 .nav-bar-items :hover {
@@ -98,6 +103,10 @@ body {
 .card-icon {
 	margin-bottom: 50px;
 	font-size: 136px;
+}
+
+.card-icon:hover{
+	color: #0086f3;
 }
 
 .footer {
