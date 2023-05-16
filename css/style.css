@@ -74,8 +74,13 @@ body {
 } */
 
 .footer {
+	display: flex;
 	background-color: #0d1014;
+	font-size: 20px;
+	color: #ddd;
 	height: 80px;
+	justify-content: center;
+	align-items: center;
 }
 
 /* media queries */
