@@ -9,7 +9,7 @@ body {
 	background-color: #202133;
 }
 
-.shadow-applet{
+.shadow-applet {
 	display: none;
 	/* display: flex; */
 	justify-content: center;
@@ -18,7 +18,7 @@ body {
 	color: #ddd;
 	font-size: 48px;
 	background-color: rgba(0, 0, 0, 0.8);
-	top:0px;
+	top: 0px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -50,6 +50,10 @@ body {
 .header h1 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+.header h1:hover {
+	color: #0086f3;
 }
 
 .nav-bar {
