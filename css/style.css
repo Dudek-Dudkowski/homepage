@@ -54,6 +54,7 @@ body {
 
 .header h1:hover {
 	color: #0086f3;
+	cursor: pointer;
 }
 
 .nav-bar {
@@ -124,6 +125,7 @@ body {
 
 .card-icon:hover {
 	color: #0086f3;
+	cursor: pointer;
 }
 
 .footer {
