@@ -149,6 +149,13 @@ body {
 	color: #ddd;
 }
 
+.card p{
+	margin-top: 20px;
+	padding: 0 30px;
+	text-align: justify;
+	text-shadow: 1px 1px 1px black;
+}
+
 .card-icon {
 	margin-bottom: 50px;
 	font-size: 136px;
