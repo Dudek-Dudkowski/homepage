@@ -1,4 +1,4 @@
-const header = document.querySelector('.header');
+const header = document.querySelector('#header');
 const applet = document.querySelector('#applet');
 const appletCloseButton = document.querySelector('#appletCloseButton');
 
@@ -6,9 +6,9 @@ const navBarItem1 = document.querySelector("#nav-bar-item1");
 const navBarItem2 = document.querySelector("#nav-bar-item2");
 const navBarItem3 = document.querySelector("#nav-bar-item3");
 
-const card1 = document.querySelector(".card1");
-const card2 = document.querySelector(".card2");
-const card3 = document.querySelector(".card3");
+const cardIcon1 = document.querySelector(".icon1");
+const cardIcon2 = document.querySelector(".icon2");
+const cardIcon3 = document.querySelector(".icon3");
 
 header.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
@@ -28,13 +28,13 @@ navBarItem3.addEventListener('click', function(){
 })
 
 // Site under construction cards
-card1.addEventListener('click', function(){
+cardIcon1.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
 })
-card2.addEventListener('click', function(){
+cardIcon2.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
 })
-card3.addEventListener('click', function(){
+cardIcon3.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
 })
 
