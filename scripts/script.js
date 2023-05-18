@@ -10,19 +10,14 @@ const cardIcon1 = document.querySelector(".icon1");
 const cardIcon2 = document.querySelector(".icon2");
 const cardIcon3 = document.querySelector(".icon3");
 
-header.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-});
 
 // Site under construction nav bar items
 navBarItem1.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
 })
-
 navBarItem2.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
 })
-
 navBarItem3.addEventListener('click', function(){
     applet.classList.add("shadow-applet-on");
 })
@@ -39,7 +34,7 @@ cardIcon3.addEventListener('click', function(){
 })
 
 
-
+//Closing "under construction applet"
 appletCloseButton.addEventListener('click', function(){
     applet.classList.remove("shadow-applet-on");
 })

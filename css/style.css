@@ -28,6 +28,10 @@ body {
 	display: flex;
 }
 
+.shadow-applet p{
+	text-transform: uppercase;
+}
+
 .box-applet {
 	padding: 20px;
 	display: flex;
@@ -72,12 +76,14 @@ body {
 	align-items: center;
 }
 
-.header h1 {
+.header h1 a{
+	text-decoration: none;
+	color: #ddd;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
-.header h1:hover {
+.header h1 a:hover {
 	color: #0086f3;
 	cursor: pointer;
 }
