@@ -11,7 +11,7 @@ body {
 
 .shadow-applet {
 	display: none;
-	/* display: flex; */
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: absolute;
@@ -35,12 +35,16 @@ body {
 
 .applet-close-icon {
 	position: absolute;
-	margin-right: -60px;
-	margin-top: -60px;
-	font-size: 36px;
+	margin-right: -50px;
+	margin-top: -50px;
+	font-size: 30px;
 	color: #ddd;
 	background-color: transparent;
 	border: none;
+}
+
+.applet-close-icon:hover {
+	color: #0086f3;
 }
 
 .wrapper {
@@ -159,6 +163,12 @@ body {
 /* media queries */
 
 @media (min-width: 576px) {
+	.applet-close-icon {
+		position: absolute;
+		margin-right: -60px;
+		margin-top: -60px;
+		font-size: 36px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -175,6 +185,7 @@ body {
 	.nav-bar .burger-icon {
 		display: none;
 	}
+
 }
 
 @media (min-width: 992px) {
