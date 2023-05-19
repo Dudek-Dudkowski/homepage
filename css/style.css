@@ -15,7 +15,7 @@ body {
 	align-items: center;
 	position: fixed;
 	color: #ddd;
-	font-size: 36px;
+	font-size: 26px;
 	background-color: rgba(0, 0, 0, 0.8);
 	top: 0;
 	bottom: 0;
@@ -42,9 +42,9 @@ body {
 
 .applet-close-icon {
 	position: absolute;
-	margin-right: -50px;
-	margin-top: -50px;
-	font-size: 30px;
+	margin-right: -40px;
+	margin-top: -40px;
+	font-size: 20px;
 	color: #ddd;
 	background-color: transparent;
 	border: none;
@@ -179,6 +179,10 @@ body {
 /* media queries */
 
 @media (min-width: 576px) {
+	.shadow-applet{
+		font-size: 36px;
+	}
+	
 	.applet-close-icon {
 		position: absolute;
 		margin-right: -60px;
