@@ -28,7 +28,7 @@ body {
 	display: flex;
 }
 
-.shadow-applet p{
+.shadow-applet p {
 	text-transform: uppercase;
 }
 
@@ -76,7 +76,7 @@ body {
 	align-items: center;
 }
 
-.header h1 a{
+.header h1 a {
 	text-decoration: none;
 	color: #ddd;
 	text-transform: uppercase;
@@ -149,7 +149,7 @@ body {
 	color: #ddd;
 }
 
-.card p{
+.card p {
 	margin-top: 20px;
 	padding: 0 30px;
 	text-align: justify;
@@ -176,13 +176,19 @@ body {
 	align-items: center;
 }
 
+.version {
+	display: flex;
+	font-size: 10px;
+	justify-content: center;
+}
+
 /* media queries */
 
 @media (min-width: 576px) {
-	.shadow-applet{
+	.shadow-applet {
 		font-size: 36px;
 	}
-	
+
 	.applet-close-icon {
 		position: absolute;
 		margin-right: -60px;
