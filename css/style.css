@@ -74,6 +74,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url(../img/bg.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
 }
 
 .header h1 a {
@@ -89,8 +93,12 @@ body {
 }
 
 .nav-bar {
-	background-color: #070a0e;
+	/* background-color: rgba(0, 0, 0, 0); */
 	color: #fff;
+	position: fixed;
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
 }
 
 .nav-bar-item {
@@ -99,7 +107,6 @@ body {
 }
 
 .nav-bar .burger-icon {
-	display: flex;
 	padding: 10px;
 	margin: 0px;
 	font-size: 25px;
@@ -129,7 +136,8 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	padding: 10px;
-	background-image: url(../img/bg.png);
+	/* background-image: url(../img/2.png); */
+	background-color: #1c1e26;
 	background-position: center;
 	background-size: cover;
 }
@@ -204,6 +212,10 @@ body {
 		flex: 1;
 	}
 
+	.nav-bar {
+		background-color: #070a0e;
+	}
+
 	.nav-bar-items {
 		display: flex;
 	}
@@ -230,12 +242,10 @@ body {
 @media (min-width: 1200px) {
 	.wrapper {
 		max-width: 1200px;
-		margin: 50px auto 0 auto;
+		margin: 0 auto;
 	}
 
 	.header {
-		border-top-left-radius: 30px;
-		border-top-right-radius: 30px;
 	}
 
 	.nav-bar-items {
@@ -247,7 +257,5 @@ body {
 	}
 
 	.footer {
-		border-bottom-left-radius: 30px;
-		border-bottom-right-radius: 30px;
 	}
 }
