@@ -92,13 +92,20 @@ body {
 	cursor: pointer;
 }
 
+.logo {
+	width: 50px;
+	height: 50px;
+}
+
 .nav-bar {
 	/* background-color: rgba(0, 0, 0, 0); */
 	color: #fff;
 	position: fixed;
 	display: flex;
-	flex-direction: row-reverse;
-	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	justify-content: space-between;
 }
 
 .nav-bar-item {
@@ -132,12 +139,93 @@ body {
 	color: #0086f3;
 }
 
+/* feed */
+
+.microblog {
+	background-color: #ddd;
+	height: 250px;
+	position: relative;
+}
+
+.nav-bar {
+	background-color: #070a0e;
+	color: #fff;
+	/* width: 1200px; */
+	height: 50px;
+}
+
+.footer {
+	background-color: #0d1014;
+	color: #fff;
+	width: 1200px;
+	height: 50px;
+}
+
+/* Main part of microblog styles */
+.microblog-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color: #ddd;
+	border-bottom: 1px solid #000;
+}
+
+.microblog-header h2 {
+	font-size: 16px;
+}
+
+.microblog-header .message-date {
+	font-size: 16px;
+}
+
+.microblog-text {
+	padding: 10px 20px;
+}
+
+.microblog-nav {
+	position: absolute;
+	display: flex;
+	height: 50px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ddd;
+	border-top: 1px solid #000;
+	bottom: 0;
+	width: 100%;
+}
+
+.fa-solid {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.fa-solid:hover {
+	color: #0086f3;
+}
+
+.message-number {
+	font-size: 18px;
+}
+
+/* about me */
+.about-me{
+	background-color: #1c1e26;
+	height: 300px;
+}
+
+/* Projects */
+.projects{
+	height: 500px;
+}
+
+/* main */
 .main {
 	display: flex;
 	flex-flow: row wrap;
 	padding: 10px;
-	/* background-image: url(../img/2.png); */
-	background-color: #1c1e26;
+	background-image: url(../img/2.png);
+	
 	background-position: center;
 	background-size: cover;
 }
@@ -246,6 +334,10 @@ body {
 	}
 
 	.header {
+	}
+
+	.nav-bar-wrapper {
+		width: 1200px;
 	}
 
 	.nav-bar-items {
