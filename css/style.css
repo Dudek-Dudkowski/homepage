@@ -99,13 +99,29 @@ body {
 
 .nav-bar {
 	/* background-color: rgba(0, 0, 0, 0); */
+	background-color: #070a0e;
 	color: #fff;
-	position: fixed;
+	position: sticky;
 	display: flex;
 	top: 0;
 	right: 0;
 	left: 0;
 	justify-content: space-between;
+	max-width: 1200px;
+	z-index: 10;
+/* coppied form down */
+
+/* color: #fff;
+width: 1200px;
+height: 50px; */
+}
+
+.nav-bar-bg{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #070a0e;
 }
 
 .nav-bar-item {
@@ -145,13 +161,6 @@ body {
 	background-color: #ddd;
 	height: 250px;
 	position: relative;
-}
-
-.nav-bar {
-	background-color: #070a0e;
-	color: #fff;
-	/* width: 1200px; */
-	height: 50px;
 }
 
 .footer {

@@ -1,6 +1,6 @@
-const header = document.querySelector('#header');
-const applet = document.querySelector('#applet');
-const appletCloseButton = document.querySelector('#appletCloseButton');
+const header = document.querySelector("#header");
+const applet = document.querySelector("#applet");
+const appletCloseButton = document.querySelector("#appletCloseButton");
 
 const navBarItem1 = document.querySelector("#nav-bar-item1");
 const navBarItem2 = document.querySelector("#nav-bar-item2");
@@ -12,40 +12,35 @@ const cardIcon2 = document.querySelector(".icon2");
 const cardIcon3 = document.querySelector(".icon3");
 // const cardIcon4 = document.querySelector(".icon4");
 
-
 // Site under construction nav bar items
-navBarItem1.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
-navBarItem2.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
-navBarItem3.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
-navBarItem4.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
+navBarItem1.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
+navBarItem2.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
+navBarItem3.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
+navBarItem4.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
 
 // Site under construction cards
-cardIcon1.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
-cardIcon2.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
-cardIcon3.addEventListener('click', function(){
-    applet.classList.add("shadow-applet-on");
-})
+cardIcon1.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
+cardIcon2.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
+cardIcon3.addEventListener("click", function () {
+	applet.classList.add("shadow-applet-on");
+});
 // cardIcon4.addEventListener('click', function(){
 //     applet.classList.add("shadow-applet-on");
 // })
 
-
 //Closing "under construction applet"
-appletCloseButton.addEventListener('click', function(){
-    applet.classList.remove("shadow-applet-on");
-})
-
-
-console.log(header);
+appletCloseButton.addEventListener("click", function () {
+	applet.classList.remove("shadow-applet-on");
+});
