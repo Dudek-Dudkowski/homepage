@@ -100,6 +100,7 @@ body {
 .nav-bar {
 	/* background-color: rgba(0, 0, 0, 0); */
 	background-color: #070a0e;
+	height: 50px;
 	color: #fff;
 	position: sticky;
 	display: flex;
@@ -219,8 +220,21 @@ height: 50px; */
 
 /* about me */
 .about-me{
+	display: flex;
 	background-color: #1c1e26;
 	height: 300px;
+}
+
+.about-me-card{
+	background-color: #fff;
+	background-color: #1c1e26;
+}
+
+.card2{
+	margin: auto;
+width: 200px;
+height: 200px;
+background-color: #fff;
 }
 
 /* Projects */
